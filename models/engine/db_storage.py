@@ -84,7 +84,7 @@ class DBStorage:
             return all_obj.get(fetch)
         return None
     def count(self, cls=None):
-                                                                                        """
-                                                                                        returns the count of all objects in storage
-                                                                                        """
-                                                                                        return (len(self.all(cls)))
+        """
+        returns the count of all objects in storage
+        """
+        return (len(self.all(cls)))
