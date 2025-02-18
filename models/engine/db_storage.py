@@ -59,7 +59,7 @@ class DBStorage:
         fetches specific object
         :param cls: class of object as string
         :param id: id of object as string
-        :return: found object or None
+        :return: afound object or None if object is not found
         """
         all_class = self.all(cls)
 
